@@ -1,0 +1,199 @@
+$height : 50px;
+
+.nav{
+    height: 50px;
+    line-height: $height;
+    .checkbox{
+        width: 56px;
+        height: $height;
+        padding-left: 18px;
+        input{
+            width: 16px;
+            height: 16px;
+        }
+    }
+    .float{
+        float: left;
+    }
+    .selectAll{
+        width: 128px;
+        height: $height;
+    }
+    .commodity{
+        width: 562px;
+        height: $height;
+    }
+    .price{
+        width: 126px;
+        height: $height;
+    }
+    .num{
+        width: 142px;
+        height: $height;
+    }
+    .subtotal{
+        width: 94px;
+        height: $height;
+    }
+    .operation{
+        width: 76px;
+        height: $height;
+    }
+
+}
+.cart-list{
+    width: 100%;
+    height: 130px;
+    .wrap{
+        background: rgba(0, 0, 0, 0.02);
+        height: 130px; 
+        padding-bottom: 12px;
+        .shop_car{
+            padding: 20px 0 10px 0;
+            height: 130px;
+            .shop_right{
+                width: 1144px;
+                height: 100px;
+                float: left;
+            }
+            .shop_img{
+                width: 100px;
+                height: 100px;
+                margin-right: 10px;
+                float: left;
+                img{
+                    width: 98px;
+                    height: 98px;
+                }
+            }
+            .shop_name{
+                width: 570px;
+                font-size: 14px;
+                float: left;
+                .cursor{
+                    cursor: pointer;
+                    color: #999999;
+                    display: block;
+                    width: 570px;
+                    height: 65px;
+                }
+            }
+            .shop_price{
+                width: 104px;
+                height: 100px;
+                float: left;
+                font-size: 14px;
+            }
+            .shop_number{
+                width: 164px;
+                height: 100px;
+                float: left;
+                padding-top: 5px;
+                .number{
+                    width: 94px;
+                    height: 27px;
+                    border: 1px solid #ccc;
+                }
+                input{
+                    width: 52px;
+                    height: 25px;
+                    text-align: center;
+                    outline: none;
+                    border: none;
+                    background: rgba(0, 0, 0, 0.02);;
+                    float: left;
+                    border-left: 1px solid #ccc;
+                    border-right: 1px solid #ccc;
+                }
+                span{
+                    display: inline-block;
+                    width: 20px;
+                    height: 27px;
+                    text-align: center;
+                    font-size: 8px;
+                    float: left;
+                    line-height: 27px;
+                }
+            }
+            .sum{
+                width: 108px;
+                height: 100px;
+                float: left;
+                span{
+                    font-size: 14px;
+                    color: #F04146;;
+                }
+            }
+            .del{
+                width: 76px;
+                height: 100px;
+                float: left;
+                span{
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+        .shop_checkbox{
+            width: 56px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            float: left;
+            input{
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+}
+.car-bar{
+    margin-top: 20px;
+    margin-bottom: 32px;
+   
+    .wrap{
+        background: #F6F6F6;
+        padding-left: 14px;
+    }
+    .left{
+        display: inline-block;
+        width: 143px;
+        height: 55px;
+        font-size: 14px;
+        line-height: 55px;
+        span{
+            color: #F04146;
+        }
+    }
+    .right{
+        display: inline-block;
+        float: right;
+        .right_price{
+            float: left;
+        }
+        span{
+            font-size: 14px;
+            line-height: 55px;
+        }
+        .price_red{
+            font-weight: bold;
+            color: #F04146;
+            font-size: 22px;
+        }
+        .right_shop{
+            width: 158px;
+            height: 55px;
+            margin-left: 30px;
+            background: red;
+            float: left;
+            line-height: 55px;
+            color: #FFFFFF;
+            cursor: pointer;
+            text-align: center;
+            font-size: 16px;
+        }
+
+    }
+
+}

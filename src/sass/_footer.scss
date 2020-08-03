@@ -1,0 +1,103 @@
+@charset "utf-8";
+/*! 尾部 */
+$color:#111;
+$hidden:hidden;
+footer{
+    width: 100%;
+    height: 349px;
+    background-color: #f8f8f8;
+    .footer_ul{
+        width: 1200px;
+        height: 91px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 131px;
+        li{
+            font-size: 13px;
+            color: $color;
+        }
+    }
+    .foot_div{
+        width: 100%;
+        height: 258px;
+    }
+    .footleft{
+        width: 294px;
+        height: 258px;
+        /* border: 1px solid orange; */
+        margin-right: 100px;
+        float: left;
+        img{
+            width: 167px;
+            height: 60px;
+            float: left;
+            margin-top: 26px;
+        }
+        p{
+            width: 87px;
+            height: 114px;
+            display: inline-block;
+            margin-left: 35px;
+            img{
+                width: 87px;
+                height: 87px;
+            }
+        }
+    }
+    .footright{
+        width: 778px;
+        height: 258px;
+        float: right;
+        /* border: 1px solid black; */
+    }
+    .footer__fr__contact{
+        height: 27px;
+        display: block;
+        padding-bottom: 10px;
+    }
+    .footer__fr__contact__btn {
+        float: left;
+        display: block;
+        width: 98px;
+        height: 27px;
+        line-height: 27px;
+        text-align: center;
+        background-color: #ff1268;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 20px;
+    }
+    .footer__ft__words {
+        padding-bottom: 6px;
+        li {
+            float: left;
+            font-size: 13px;
+            color: $color;
+        }
+        a {
+            font-size: 13px;
+            color: $color;
+        }
+    }
+    .footer__ft__words:after {
+        display: block;
+        clear: both;
+        visibility: $hidden;
+        height: 0;
+        overflow: $hidden;
+        content: '.';
+    }
+    .footer__ft:after {
+        display: block;
+        clear: both;
+        visibility: $hidden;
+        height: 0;
+        overflow: $hidden;
+        content: '.';
+    }
+    .footer__ft__img>a>img{
+        height: 30px;
+    }
+    
+}
