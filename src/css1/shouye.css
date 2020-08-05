@@ -167,25 +167,21 @@
   width: 100%;
   /* border: 1px solid red; */
 }
-
 .kindlist .wrap {
   height: 100%;
 }
-
-.wrap .concert {
+.kindlist .wrap .concert {
   height: 95px;
   font-size: 24px;
   line-height: 95px;
   margin-top: 10px;
 }
-
-.concert span {
+.kindlist .wrap .concert span {
   float: right;
   margin-right: 28px;
   color: #9B9B9B;
   font-size: 14px;
 }
-
 .kindlist .left {
   width: 25%;
   height: 387px;
@@ -193,13 +189,11 @@
   float: left;
   position: relative;
 }
-
-.left > a > img {
+.kindlist .left a img {
   width: 100%;
   height: 387px;
 }
-
-.left > .adver {
+.kindlist .left .adver {
   width: 270px;
   height: 118px;
   position: absolute;
@@ -210,46 +204,36 @@
   padding: 10px 17px;
   font-size: 16px;
 }
-
-.adver > p > a {
+.kindlist .left .adver a {
   color: #fff;
 }
-
-.adver .details {
+.kindlist .left .adver .details {
   font-size: 20px;
   margin-top: 12px;
 }
-
-.adver .details span {
+.kindlist .left .adver .details span {
   font-size: 14px;
 }
-
 .kindlist .right {
   width: 74%;
   height: 375px;
-  /* border: 1px solid red; */
   float: left;
   margin-left: 8px;
 }
-
-.right > div {
+.kindlist .right .div_1 {
   width: 294px;
   height: 163px;
-  /* border: 1px solid lightsalmon; */
   float: left;
 }
-
-.div_1 {
+.kindlist .div_1 {
   margin-bottom: 61px;
 }
-
-.right > div > a > img {
+.kindlist .right .div_1 > a > img {
   width: 133px;
   height: 163px;
   float: left;
 }
-
-.right_div {
+.kindlist .right_div {
   width: 138px;
   height: 162px;
   position: relative;
@@ -257,15 +241,13 @@
   display: inline-block;
   vertical-align: top;
 }
-
-.right_div > p:first-child {
+.kindlist .right_div > p:first-child {
   line-height: 20px;
   font-size: 14px;
   color: #4A4A4A;
   overflow: hidden;
 }
-
-.right_div > p:nth-child(2) {
+.kindlist .right_div > p:nth-child(2) {
   width: 100%;
   font-size: 12px;
   margin-top: 14px;
@@ -273,8 +255,7 @@
   overflow: hidden;
   word-break: break-all;
 }
-
-.right_div > p:nth-child(3) {
+.kindlist .right_div > p:nth-child(3) {
   width: 100%;
   font-size: 12px;
   margin-top: 14px;
@@ -282,8 +263,7 @@
   overflow: hidden;
   word-break: break-all;
 }
-
-.price {
+.kindlist .price {
   width: 138px;
   position: absolute;
   left: 15px;

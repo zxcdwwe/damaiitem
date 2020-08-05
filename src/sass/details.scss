@@ -1,4 +1,3 @@
-/* 头部 */
 .nationwide{
     margin-right: 50px;
 }
@@ -47,7 +46,6 @@
     width: 263px;
     height: 58px;
     display: inline-block;
-    /* justify-content: space-around; */
     margin-left: 50px;
     line-height: 17px;
 } 
@@ -65,11 +63,8 @@
     height: 58px;
     display: flex;
     position: relative;
-
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    /* margin-top: 8px; */
     margin-left: 10px;
     float: left;
 }
@@ -96,7 +91,6 @@
 .wrap .shouye_ul>li>span{
     font-size: 16px;
 }
-/* 内容 */
 .mian{
     height: 4769px;
    
@@ -110,7 +104,6 @@
 }
 .mian_left{
     width: 880px;
-    /* height: 4678px; */
     float: left;
 }
 .left_img{
@@ -129,8 +122,6 @@
     display: inline-block;
     width: 60px;
     height: 24px;
-    /* position: relative;
-    top: -3px; */
     text-align: center;
     line-height: 24px;
     background: linear-gradient(-45deg,#ff1268,#ff5593);
@@ -235,7 +226,6 @@ label{
     margin-top: 30px;
 }
 .num>a{
-    /* display: inline-block; */
     float: left;
     width: 24px;
     height: 28px;
@@ -253,7 +243,6 @@ label{
     height: 38px;
     margin: 0 4px;
     padding: 0 18px;
-    /* display: inline-block; */
     float: left;
 }
 .icon-tianjia-{
@@ -328,8 +317,7 @@ margin-left: 6px;
     color: #9c9ca5;
     margin-right: 60px;
     cursor: pointer;
-    line-height: 56px;
-    /* position: relative; */ 
+    line-height: 56px; 
 }
 .check{
     position: absolute;
@@ -353,21 +341,6 @@ margin-left: 6px;
     color: #000;
     border-bottom: 1px solid #e2e2e2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .right{
     width: 320px;
     height: 4768px;

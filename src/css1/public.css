@@ -1,0 +1,146 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+}
+
+/* 棣栭〉 */
+.header {
+  width: 100%;
+  height: 91px;
+}
+
+.header img {
+  width: 107px;
+  height: 52px;
+  margin: 20px  72px 0 4px;
+}
+
+/* 灏鹃儴 */
+footer {
+  width: 100%;
+  height: 349px;
+  background-color: #f8f8f8;
+}
+
+.footer_ul {
+  width: 938px;
+  height: 91px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 131px;
+}
+
+.footer_ul > li {
+  font-size: 14px;
+  color: #111;
+}
+
+.foot_div {
+  width: 100%;
+  height: 258px;
+}
+
+.footleft {
+  width: 294px;
+  height: 258px;
+  /* border: 1px solid orange; */
+  margin-right: 100px;
+  float: left;
+}
+
+.footright {
+  width: 778px;
+  height: 258px;
+  float: right;
+  /* border: 1px solid black; */
+}
+
+.footleft > img {
+  width: 167px;
+  height: 60px;
+  float: left;
+  margin-top: 26px;
+}
+
+.footleft > p {
+  width: 87px;
+  height: 114px;
+  display: inline-block;
+  margin-left: 35px;
+}
+
+.footleft > p > img {
+  width: 87px;
+  height: 87px;
+}
+
+.footer__fr__contact {
+  height: 27px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.footer__fr__contact__btn {
+  float: left;
+  display: block;
+  width: 98px;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  background-color: #ff1268;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+.footer__ft__words {
+  padding-bottom: 6px;
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.footer__ft__words:after {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  content: '.';
+}
+
+.footer__ft__words li {
+  float: left;
+  font-size: 13px;
+  color: #111;
+}
+
+.footer__ft__words a {
+  font-size: 13px;
+  color: #111;
+}
+
+.footer__ft:after {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  content: '.';
+}
+
+.footer__ft__img > a > img {
+  height: 30px;
+}
+
+/*# sourceMappingURL=public.css.map */

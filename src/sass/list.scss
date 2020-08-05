@@ -47,7 +47,7 @@
     width: 263px;
     height: 58px;
     display: inline-block;
-    /* justify-content: space-around; */
+
     margin-left: 50px;
     line-height: 17px;
 } 
@@ -66,10 +66,8 @@
     display: flex;
     position: relative;
 
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    /* margin-top: 8px; */
     margin-left: 10px;
     float: left;
 }
@@ -96,18 +94,14 @@
 .wrap .shouye_ul>li>span{
     font-size: 16px;
 }
-/* 内容 */
+
 .mian{
-    /* width: 928px; */
-    height: 1165px;
+    height: 1170px;
    
 }
 .left{
     width: 928px;
     height: 620px;
-    /* padding-top: 40px; */
-    
-    /* border: 1px solid #ebebeb; */
     float: left;
 }
 .sum{
@@ -143,7 +137,6 @@
     width: 779px;
     height: 84px;
     float: left;
-    /* border: 1px solid #ebebeb; */
 }
 .check_city{
     color: #9b9b9b;
@@ -190,7 +183,6 @@
     float: left;
 }
 .screen_classify>ul>li{
-    /* float: left; */
     display: inline-block;
     height: 26px;
     line-height: 26px;
@@ -230,7 +222,6 @@
     white-space: nowrap;
     cursor: pointer;
 }
-/* 时间 */
 .screen_time{
     width: 878px;
     height: 47px;
@@ -311,16 +302,17 @@ color: #666;
 }
 .mian_item{
     border: 1px solid #cecece;
+    // height: 5000px;
 }
 .item_mian{
     width: 926px;
-    height: 821px;
+    // height: 5000px;
     padding: 5px 18px;
+
     
 }
 .item_box{
     color: #333;
-    /* border: 1px solid #ccc; */
 
 }
 .item_box .item{
@@ -330,6 +322,10 @@ color: #666;
     zoom: 1;
     width: 879px;
     height: 250px;
+    .item_div{
+        width: 879px;
+        height: 250px;
+    }
    
 }
 .item a>img{
@@ -414,11 +410,6 @@ color: #666;
     font-size: 14px;
     margin-left: 5px;
 }
-/* 分页 */
-/* .pagination{
-    float: right;
-} */
-
 .right{
     width: 272px;
     height: 516px;
