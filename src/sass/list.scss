@@ -31,6 +31,7 @@
     top: 11px;
     outline: none;
     border: none;
+    text-align: left;
 }
 .btn{
    width: 88px;
@@ -96,18 +97,23 @@
 }
 
 .mian{
-    height: 1170px;
+    overflow: hidden;
+    min-height: 100px;
+    .wrap{
+        min-height: 100px;
+    }
    
 }
 .left{
     width: 928px;
-    height: 620px;
+    height: auto;
     float: left;
 }
 .sum{
     line-height: 50px;
     color: #666;
     font-size: 14px;
+    height: 50px;
 }
 .sum>span{
     color: #ed0a75;

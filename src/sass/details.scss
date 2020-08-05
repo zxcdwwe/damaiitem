@@ -296,29 +296,11 @@ margin-left: 6px;
     text-align: center;
     cursor: pointer;
     float: left;
+    a{
+        color: #fff;
+    }
 }
-.nav{
-    width: 880px;
-    height: 56px;
-    border: 1px solid #ccc;
-   
-}
-.nav>.wrap{
-    margin-left: 30px;
-    position: relative;
-}
-.nav>.wrap>.nav_span{
-    font-size: 20px;
-    color: #000000;
-}
-.nav>.wrap>span{
-    display: inline-block;
-    font-size: 16px;
-    color: #9c9ca5;
-    margin-right: 60px;
-    cursor: pointer;
-    line-height: 56px; 
-}
+
 .check{
     position: absolute;
     height: 4px;
@@ -328,12 +310,7 @@ margin-left: 6px;
     background: #ff2869;
     border-radius: 40px;
 }
-.content{
-    width: 880px;
-    height: 4900px;
-    border: 1px solid #ccc;
-    padding: 60px 30px 0;
-}
+
 .introduce{
     padding-bottom: 14px;
     margin-bottom: 23px;
@@ -343,7 +320,7 @@ margin-left: 6px;
 }
 .right{
     width: 320px;
-    height: 4768px;
+    height: 620px;
     border: 1px solid #ccc;
     float: left;
 }

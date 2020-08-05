@@ -41,11 +41,10 @@
 
 .cart-list {
   width: 100%;
-  height: 130px;
+  min-height: 130px;
 }
 .cart-list .wrap {
   background: rgba(0, 0, 0, 0.02);
-  height: 130px;
   padding-bottom: 12px;
 }
 .cart-list .wrap .shop_car {
@@ -149,10 +148,12 @@
 .car-bar {
   margin-top: 20px;
   margin-bottom: 32px;
+  height: 55px;
 }
 .car-bar .wrap {
   background: #F6F6F6;
   padding-left: 14px;
+  height: 55px;
 }
 .car-bar .left {
   display: inline-block;
