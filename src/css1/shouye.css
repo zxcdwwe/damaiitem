@@ -14,6 +14,20 @@
 }
 
 /*! 首页 */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .header {
   width: 100%;
   height: 91px;
@@ -217,12 +231,14 @@
 .kindlist .right {
   width: 74%;
   height: 375px;
+  /* border: 1px solid red; */
   float: left;
   margin-left: 8px;
 }
 .kindlist .right .div_1 {
   width: 294px;
   height: 163px;
+  /* border: 1px solid lightsalmon; */
   float: left;
 }
 .kindlist .div_1 {

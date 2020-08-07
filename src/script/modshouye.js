@@ -23,7 +23,7 @@ define([], function() {
                 $shopObj[$i].forEach((value, index) => {
                     $str += `
                 <div class="div_1">
-                <a href="details.html?sid=${value.Did}" target="_blank">
+                <a href="details.html?did=${value.did}" target="_blank">
                  <img src="${value.url}" />
                  <div class="right_div">
                  <p>${value.title}</p>
@@ -35,7 +35,9 @@ define([], function() {
                 </div>
                 `;
                 });
-                $goodslist[$i].innerHTML = $str += '</div>' ;
+                $str += '</div>';
+                // $goodslist[$i].innerHTML = $str += '</div>' ;
+                $($goodslist[$i]).html($str);
             }
         })
     }

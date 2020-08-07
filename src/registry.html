@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registry</title>
     <link rel="stylesheet" href="./css1/registry.css">
-    <link rel="stylesheet" href="./css1/public.css">
     <link rel="stylesheet" href="./font_1/iconfont.css">
+    <script src="script/require.js" defer async="true" data-main="script/main.js" id="currentpage" currentmod="modregistry"></script>
 </head>
 
 <body>
@@ -19,38 +19,26 @@
     </div>
     <div class="mian">
         <div class="wrap">
-            <form action="" class="form">
-                <p class="p_1">
+            <form action="http://localhost/damai/php/registry.php" class="form" method="post">
+                <p>
                     <label for=""><span>*</span>手机号：</label>
-                    <!-- <div class="select">
-                       <li></li>
-                   </div> -->
-                    <input type="text">
+                    <input type="text" name="del" class="del"><span class="span span_del"></span>
                 </p>
                 <p>
                     <label for=""><span>*</span>输入密码：</label>
-                    <input type="text">
+                    <input type="password" name="password"  class="password"  maxlength="6"><span class="span span_password"></span>
                 </p>
                 <p>
                     <label for=""><span>*</span>确认密码：</label>
-                    <input type="text">
+                    <input type="password" name="repass" class="repass" maxlength="6"><span class="span span_repass"></span>
                 </p>
-                <div class="form_div">
-                    <label for=""><span>*</span>滑动验证码：</label>
-                    <div class="verify">
-                        <div class="verify_div">
-                            <span class="iconfont icon-huadong"></span>
-                        </div>
-
-                    </div>
-                </div>
                 <div class="treaty">
                     <label for=""><input type="checkbox"> </label>
                    
                     <p>我已阅读接受<a href="https://help.damai.cn/helpPageH5Context.htm?pageId=38" target="_blank">《大麦网会员服务协议》</a><a href="https://help.damai.cn/helpPageH5Context.htm?pageId=40" target="_blank">《隐私权专项条款》</a><a href="https://help.damai.cn/helpPageH5Context.htm?pageId=47" target="_blank">《大麦网订票服务条款》</a>并同意自动注册成为会员</p>
                 </div>
                 <div>
-                   <button type="button" class="btn">同意并注册</button> 
+                   <input type="submit" class="submit" name="submit" value="同意并注册">
                 </div>
                 
             </form>

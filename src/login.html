@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link rel="stylesheet" href="./css1/login.css">
-    <link rel="stylesheet" href="./css1/public.css">
     <link rel="stylesheet" href="./font_1/iconfont.css">
+    <script src="script/require.js" defer async="true" data-main="script/main.js" id="currentpage" currentmod="modlogin"></script>
 </head>
 
 <body>
@@ -29,25 +29,13 @@
                 <div class="login_message">
                     <div class="login_1">
                         <label><span class="iconfont icon-denglu icspan"></span>用户名</label>
-                        <input type="text" placeholder="请输入手机号或者邮箱">
+                        <input type="text" placeholder="请输入手机号或者邮箱" name="del" class="del">
                     </div>
                     <div class="login_1">
                         <label><span class="iconfont icon-tianchongxing- icspan"></span>密码</label>
                         <input type="text" placeholder="请输入登录密码">
                     </div>
-                    <button type="submit" class="submit">登录</button>
-                    <div id="thirdpart-login">
-                        <a href="javascript:;" attr-action="window" attr-type="taobao" attr-customurl=""
-                            attr-onclickfn="" class="thirdpart-login-icon icon-taobao" title="sign with taobao"></a>
-                        <a href="javascript:;" attr-action="window" attr-type="weixin" attr-customurl=""
-                            attr-onclickfn="" class="thirdpart-login-icon icon-weixin" title="sign with weixin"></a>
-                        <a href="javascript:;" attr-action="window" attr-type="qq" attr-customurl="" attr-onclickfn=""
-                            class="thirdpart-login-icon icon-qq" title="sign with qq"></a>
-                        <a href="javascript:;" attr-action="window" attr-type="weibo" attr-customurl=""
-                            attr-onclickfn="" class="thirdpart-login-icon icon-weibo" title="sign with weibo"></a>
-                        <a href="javascript:;" attr-action="window" attr-type="alipay" attr-customurl=""
-                            attr-onclickfn="" class="thirdpart-login-icon icon-alipay" title="sign with alipay"></a>
-                    </div>
+                    <input type="submit" class="submit" value="登录">
                     <div class="login_a">
                         <a href="JavaScript:;">忘记密码</a>
                         <a href="registry.html">免费注册</a>

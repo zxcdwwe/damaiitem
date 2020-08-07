@@ -3,109 +3,81 @@
     height: 580px;
     background-color: #f8f8f8;
     border: 1px solid red;
-}
-.mian>.wrap{
-    height: 500px;
-    background-color: #fff;
-    margin-top: 40px;
-    padding: 40px 240px 0;
-}
-.form{
-    width: 720px;
-    height: 413px;
-    margin: 0 auto;
-    text-align: center;
-}
-.form>p{
-    width: 720px;
-    height: 40px;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-.form>p span{
-    color: red;
-}
-.form>p>input{
-    width: 300px;
-    height: 40px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-.form>p>label{
-    display: inline-block;
-    width: 100px;
-    text-align: right;
-}
-.form_div{
-    width: 720px;
-    height: 40px;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-.form_div>label{
-    display: inline-block;
-    width: 100px;
-    text-align: right;
-}
-.form>div span{
-    color: red;
-}
-.verify{
-    width: 300px;
-    height: 40px;
-    background-color: #9c9c9c;
-    border: 1px solid #9c9c9c;
-    border-radius: 4px;
-    display: inline-block;
-    position: relative;
-  
-}
-.verify_div{
-    display: inline-block;
-    width: 43px;
-    height: 38px;
-    background: #ffffff;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.verify_div .icon-huadong{
-    font-size: 16px;
-    color: #d7d8d9;
-    position: absolute;
-    left: 13px;
-    top: 8px;
-}
-.treaty{
-    width: 720px;
-    height: 78px;
-}
-.treaty>label{
-    text-align: right;
-    width: 14px;
-    float: left;
-    margin-left: 260px;
-}
-.treaty>label>input{
-    width: 16px;
-    height: 16px;
-}
-.treaty>p{
-    width: 274px;
-    height: 53px;
-    float: left;
-    margin-left: 10px;
-}
-.btn{
-   background-image: linear-gradient(90deg,#ff4aae,#ff1268);
-    border: 1px solid #ff1268;
-    border-style: solid;
-    background-color: #f50;
-    border-radius: 3px;
-    padding: 0 16px;
-    height: 40px;
-    line-height: 38px;
-    font-size: 18px;
-    cursor: pointer;
+    .wrap{
+        height: 500px;
+        background-color: #fff;
+        margin-top: 40px;
+        padding: 40px 240px 0;
+    }
+    .form{
+        width: 720px;
+        min-height: 100px;
+        margin: 0 auto;
+        text-align: center;
+        p{
+            width: 720px;
+            height: 50px;
+            font-size: 14px;
+            margin-bottom: 20px;
+            span{
+                color: red;
+            }
+            input{
+                width: 300px;
+                height: 40px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            label{
+                display: inline-block;
+                width: 100px;
+                text-align: right;
+            }
+            .span{
+                display: inline-block;
+                width: 155px;
+                height: 40px;
+                text-align: left;
+                line-height: 40px;
+                margin-left: 10px;
+            }
+        }
+    }
+    .treaty{
+        width: 720px;
+        height: 78px;
+        label{
+            text-align: right;
+            width: 14px;
+            float: left;
+            margin-left: 190px;
+            input{
+                width: 16px;
+                height: 16px;
+            }
+        }
+        p{
+            width: 274px;
+            height: 53px;
+            float: left;
+            margin-left: 10px;
+        }
+    }
+    .submit{
+       background-image: linear-gradient(90deg,#ff4aae,#ff1268);
+        border: 1px solid #ff1268;
+        border-style: solid;
+        background-color: #f50;
+        border-radius: 3px;
+        padding: 0 16px;
+        height: 40px;
+        line-height: 38px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    
 }
 
+@import "header";
+@import "footer";

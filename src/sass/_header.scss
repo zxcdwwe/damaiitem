@@ -1,5 +1,17 @@
 @charset "utf-8";
 /*! 首页 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
 $absolute:absolute;
 .header{
     width: 100%;
