@@ -77,16 +77,8 @@ define(['jquery'], function () {
 
 
         }
-        // 输入密码
-
-
-
-
 
     }
 
 });
-
-
-// 0 undefined Null '' false
 

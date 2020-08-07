@@ -4,12 +4,12 @@
 require.config({
     paths: {
         'jquery': 'https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min',
-        // 'pagination':'jquery.pagination',
+        'pagination':'jquery.pagination'
     }
 });
 
 //加载模块
-require(['jquery'], function($) {
+require(['jquery','pagination'], function($,pagination) {
     let mod = $('#currentpage').attr('currentmod'); //获取script标签下面的属性值
     if (mod) {
         //如果mod存在，加载对应的模块
